@@ -1,4 +1,4 @@
-# Multi-label Diagnosis using Chest X-ray and ResNet
+# Multi-label Diagnosis Prediction using Chest X-ray and ResNet
 ## 설명
 [MIMIC-CXR-JPG](https://physionet.org/content/mimic-cxr-jpg/2.0.0/)의 mimic-cxr-2.0.0-negbio, mimic-cxr-2.0.0-metadata 데이터와 Chest X-ray 이미를 바탕으로 multi-label 진단을 예측합니다.
 한 명의 환자당 lowest alphanumeric의 기준으로 하나의 study_id를 선택하고, 선택된 study_id에 대해 AP view의 chest X-ray 이미지를 확용합니다.
