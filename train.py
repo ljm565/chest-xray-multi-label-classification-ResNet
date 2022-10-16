@@ -139,12 +139,6 @@ class Trainer:
                         loss = self.criterion(output, label)
                         predict = (F.sigmoid(output) > 0.5).float()
                         acc = (predict==label).float().sum()/batch_size/self.label
-
-                        # for pred, real in zip(predict, y):
-                        #     if real == 1:
-                        #         total1 += 1
-                        #         if pred == 1:
-                        #             pred1 += 1
                         
                         if phase == 'train':
                             loss.backward()
