@@ -46,7 +46,7 @@
     <br><br>
 
 * ### 모델 학습 조건 설정 (config.json)
-    * **주의사항: 최초 학습 시 config.json이 사용되며, 이미 한 번 학습을 한 모델에 대하여 parameter를 바꾸고싶다면 base_path/model/{model_name}/{model_name}.json 파일을 수정해야 합니다.**
+    **주의사항: 최초 학습 시 config.json이 사용되며, 이미 한 번 학습을 한 모델에 대하여 parameter를 바꾸고싶다면 base_path/model/{model_name}/{model_name}.json 파일을 수정해야 합니다.**
     * physio_id: 인가된 데이터 다운 ID. 
     * pwd: 인가된 데이터 다운 비밀번호.
     * base_path: 학습 관련 파일이 저장될 위치.
